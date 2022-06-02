@@ -8,3 +8,12 @@ A script that automatic retrieve your digital assets from Amazon Kindle Store Ch
 To the illusion of *ownership* in a digital era.
 
 RIP Kindle in China 2013 - 2022.
+
+---
+Tips:
+
++ **[Important]** Please remove all *sample* books (样章) from your account before running this script.
++ Server error(503) is common. Increace timeout to avoid it.
++ Some books may fail to download. A stateble internet connection and integrity validation is recommmended.
++ [Calibre](https://calibre-ebook.com) is a good option to organize your e-books.
+
