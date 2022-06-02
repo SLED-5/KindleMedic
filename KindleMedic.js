@@ -4,8 +4,8 @@ function kindleMedic () {
     $('input.hideItem_myx')[curIdx].click();
     $('ul button.myx-button-text')[curIdx].click();
     console.log("Downloading:".concat(curIdx + 1).concat(" out of ").concat($('input.hideItem_myx').length));
-    setTimeout(function () { $('.myx-popover-inner .transcludedContent_myx .contentDetails_myx #contentAction_download_myx').trigger('click'); }, 1000);
-    setTimeout(function () { $('.dialog_myx .myx-button-primary').trigger('click'); }, 2000);
+    setTimeout(function () { $('.myx-popover-inner .transcludedContent_myx .contentDetails_myx #contentAction_download_myx').trigger('click'); }, 1500);
+    setTimeout(function () { $('.dialog_myx .myx-button-primary').trigger('click'); }, 1500);
     /* 
     You can change the timeout below to start downloading new book faster.
     But some books may fail to download with a very short timeout.
@@ -17,4 +17,4 @@ function kindleMedic () {
     }
    
 }
-kindleMedic();
+kindleMedic();https://github.com/SLED-5/KindleMedic/blob/main/KindleMedic.js
